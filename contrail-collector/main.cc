@@ -382,7 +382,7 @@ int main(int argc, char *argv[])
             structured_syslog_kafka_broker,
             structured_syslog_kafka_topic,
             structured_syslog_kafka_partitions,
-            string("127.0.0.1"),
+            options.redis_server(),
             options.redis_port(),
             options.redis_password(),
             aggconf,
