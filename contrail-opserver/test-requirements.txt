@@ -11,7 +11,7 @@ stevedore
 Cython==0.24.1
 cassandra-driver==3.0.0
 amqp==1.4.1
-kombu==3.0.9
+kombu==3.0.30
 docker
 ../../../src/contrail-analytics/contrail-collector/test/utils/mockredis
 ../../../src/contrail-analytics/contrail-collector/test/utils/mockcassandra
